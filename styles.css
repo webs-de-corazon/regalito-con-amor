@@ -73,16 +73,6 @@ body {
     left: 25px;
 }
 
-.cat, .cat2 {
-    background-color: transparent;
-    background-size: cover;
-    transform: none; /* Remove the rotate transformation */
-}
-
-.cat2 {
-    background-image: url('https://placekitten.com/60/60'); /* URL de la segunda imagen de gatito */
-}
-
 @keyframes float {
     0% {
         transform: translateY(0);
@@ -124,4 +114,9 @@ footer {
 .custom-tooltip {
     --bs-tooltip-bg: var(--bd-violet-bg);
     --bs-tooltip-color: var(--bs-white);
-  }
+}
+.btn-hazclickqui{
+    background-color: #6d1459;
+    color:white;
+
+}
